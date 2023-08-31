@@ -10,15 +10,13 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 
-st.write("LARGEST OF THREE ")
-#Get Input
 
-st.header('User Input Parameters')
+st.header('Largest Of Three')
 
 def user_input_features():
     num_1 = st.number_input("First Number",min_value=-20000000.0,max_value=20000000.0)
     num_2 = st.number_input("Second Number",min_value=-20000000.0,max_value=20000000.0)
-    num_3 = st.number_input("DAYS_BIRTH",min_value=-20000000.0,max_value=20000000.0)
+    num_3 = st.number_input("Third Number",min_value=-20000000.0,max_value=20000000.0)
 
     return num_1,num_2,num_3
 
