@@ -30,3 +30,6 @@ num_1,num_2,num_3 = user_input_features()
 if(st.button('Find Largest')):
   st.subheader('Largest Of Three')
   st.write(max(num_1,num_2,num_3))
+
+if _name_ == "main":
+    main()No
