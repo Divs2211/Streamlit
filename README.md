@@ -1,2 +1,2 @@
 # Streamlit
-This is an streamllit deploy repo
+This is an streamllit deploy app
